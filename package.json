@@ -1,0 +1,14 @@
+{
+  "name": "doc_rxjs",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Barld Boot",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "rxjs": "^5.4.3"
+  }
+}
