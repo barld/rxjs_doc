@@ -4,7 +4,7 @@ import { of } from 'rxjs/observable/of';
 import { interval } from 'rxjs/Observable/interval';
 
 import { pipe } from 'rxjs/util/pipe';
-import {map, filter} from 'rxjs/operators';
+import {map, filter, reduce} from 'rxjs/operators';
 
 
 @Component({
@@ -31,6 +31,8 @@ export class HelloComponent implements OnInit {
     this.simpleObserver.subscribe(
       s => this.value = s
     );
+
+
 
     this.obs = this.simpleObserver;
   }
